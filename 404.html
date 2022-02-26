@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="generator" content="VuePress 2.0.0-beta.35">
+    <style>
+      :root {
+        --c-bg: #fff;
+      }
+      html.dark {
+        --c-bg: #22272e;
+      }
+      html, body {
+        background-color: var(--c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme');
+			const systemDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+			if (userMode === 'dark' || (userMode !== 'light' && systemDarkMode)) {
+				document.documentElement.classList.toggle('dark', true);
+			}
+    </script>
+    <title>VuePress</title><meta name="description" content="Vue 驱动的静态网站生成器">
+    <link rel="modulepreload" href="/vuepress/assets/app.c1160404.js"><link rel="modulepreload" href="/vuepress/assets/404.html.93146c89.js"><link rel="modulepreload" href="/vuepress/assets/404.html.e79336b6.js">
+    <link rel="stylesheet" href="/vuepress/assets/style.fb12d982.css">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="theme-container"><div class="theme-default-content"><h1>404</h1><blockquote>这是一个 404 页面</blockquote><a href="/vuepress/" class="">返回首页</a></div></div><!----><!--]--></div>
+    <script type="module" src="/vuepress/assets/app.c1160404.js" defer></script>
+  </body>
+</html>

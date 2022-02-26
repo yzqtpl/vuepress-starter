@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as a,b as o,d as s}from"./app.c1160404.js";const c={},d={id:"\u8FD9\u662Fguide2",tabindex:"-1"},r=o("a",{class:"header-anchor",href:"#\u8FD9\u662Fguide2","aria-hidden":"true"},"#",-1),_=s(" \u8FD9\u662Fguide2"),n=[r,_];function i(h,u){return t(),a("h1",d,n)}var l=e(c,[["render",i]]);export{l as default};
