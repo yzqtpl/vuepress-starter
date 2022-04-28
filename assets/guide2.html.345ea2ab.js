@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as a,b as o,d as s}from"./app.93b08fd1.js";const c={},d={id:"\u8FD9\u662Fguide2",tabindex:"-1"},_=o("a",{class:"header-anchor",href:"#\u8FD9\u662Fguide2","aria-hidden":"true"},"#",-1),r=s(" \u8FD9\u662Fguide2"),i=[_,r];function n(h,u){return t(),a("h1",d,i)}var l=e(c,[["render",n],["__file","guide2.html.vue"]]);export{l as default};
