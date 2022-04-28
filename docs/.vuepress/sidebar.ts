@@ -11,5 +11,5 @@ export const sidebar: SidebarConfig = {
             children: ["/plugin/comp.md"],
         },
     ],
-    "/side/": [{ text: "侧边", children: ["/side/side1.md", "/side/side2.md"] }],
+    "/side/": ["/side1.md", "side2.md"],
 };

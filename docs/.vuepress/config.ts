@@ -63,18 +63,5 @@ export default defineUserConfig<DefaultThemeOptions>({
                 },
             },
         ],
-
-        [
-            "vuepress-plugin-clipboard",
-            {
-                align: "top",
-            },
-        ],
-        [
-            "@vuepress/plugin-register-components",
-            {
-                componentsDir: path.resolve(__dirname, "./components"),
-            },
-        ],
     ],
 });
